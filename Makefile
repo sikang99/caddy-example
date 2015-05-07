@@ -42,8 +42,7 @@ git-push gp:
 	git init
 	git add Caddyfile Makefile
 	git commit -m "add config files"
-	git remote add origin https://github.com/sikang99/caddy-example.git
-	git push -u origin master
+	git push -u https://sikang99@github.com/sikang99/caddy-example master
 
 usage:
 	@echo ""
