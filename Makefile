@@ -46,6 +46,6 @@ git-push gp:
 
 usage:
 	@echo ""
-	@echo "make [edit|run|test|kill|caddy|make]"
+	@echo "make [edit|run|test|kill|caddy|make|git-push]"
 	@echo ""
 
