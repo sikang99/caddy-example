@@ -1,0 +1,11 @@
+localhost:8090
+log log/access.log
+
+browse /blog
+markdown /blog {
+	ext md txt
+}
+
+websocket /echo cat
+
+
