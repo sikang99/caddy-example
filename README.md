@@ -1,4 +1,4 @@
-## Welcome to Caddy server
+## Use Caddy server
 
 ### Purpose
 
