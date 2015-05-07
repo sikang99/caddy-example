@@ -1,7 +1,7 @@
 .PHONY: all edit run test kill caddy make usage
 
 PORT=8090
-URL=http://localhost:$(PORT)
+URL=https://localhost:$(PORT)
 
 all: usage
 
@@ -21,16 +21,17 @@ test t:
 	@echo ""
 
 t1:
-	curl -v $(URL)
+	#curl -v $(URL)
+	curl -v --insecure $(URL)
 
 t2:
-	curl -v -XPOST $(URL) --http2
+	#curl -v -XPOST $(URL) --http2
+	curl -v --insecure -XPOST $(URL) --http2
 
 t3:
 	h2spec -p $(PORT)
 
 t4:
-	http2check https://localhost:$(PORT)
 	http2check $(URL)
 
 bench b:
