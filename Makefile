@@ -6,15 +6,18 @@ edit e:
 	vi index.html
 
 run r:
-	caddy -conf="Caddyfile"
+	caddy -conf="Caddyfile" &
+	tail -f log/access.log
 
 test t:
 	caddy -conf="Caddyfile" &
-	#curl http://localhost:8090 --http2
 	curl -v http://localhost:8090
 
+t2:
+	curl http://localhost:8090 --http2
+
 bench b:
-	wrk http://localhost:8090
+	wrk -c 10 -t 5 http://localhost:8090
 
 view v:
 	xdg-open http://localhost:8090/blog

@@ -25,6 +25,6 @@ to test http/2 it requires more newer version of curl
 
 - [cURL](http://curl.haxx.se/) - HTTP testing tool
 - [wrk](https://github.com/wg/wrk) - HTTP benchmarking tool
-- [Caddy](https://caddyserver.com/) - The HTTP/2 Web Server
+- [Caddy](https://caddyserver.com/) - The HTTP/2 Web Server, written in Go, released at 2015
 
 
