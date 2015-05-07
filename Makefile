@@ -40,7 +40,7 @@ git-init:
 
 git-push gp:
 	git init
-	git add Caddyfile Makefile
+	git add README.md Caddyfile Makefile index.html
 	git commit -m "add config files"
 	git push -u https://sikang99@github.com/sikang99/caddy-example master
 

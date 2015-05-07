@@ -1,6 +1,6 @@
-# Welcom Caddy server
+## Welcome to Caddy server
 
-# Purpose
+### Purpose
 
 Let's learn how to use Caddy web server and check its functionalities.
 
