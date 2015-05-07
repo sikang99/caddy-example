@@ -23,8 +23,14 @@ to test http/2 it requires more newer version of curl
 
 ### Reference
 
-- [cURL](http://curl.haxx.se/) - HTTP testing tool
+- [xyproto/http2check](https://github.com/xyproto/http2check) - Utility for checking if a web server supports HTTP/2
+- [jeffsmith82/http2test](https://github.com/jeffsmith82/http2test)
+- [summerwind/h2spec](https://github.com/summerwind/h2spec) - A conformance testing tool for HTTP/2 implementation.
+
+- [cURL](http://curl.haxx.se/) - HTTP testing tool, [github](https://github.com/bagder/curl)
 - [wrk](https://github.com/wg/wrk) - HTTP benchmarking tool
+
 - [Caddy](https://caddyserver.com/) - The HTTP/2 Web Server, written in Go, released at 2015
+	[github]()
 
 

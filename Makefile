@@ -1,5 +1,8 @@
 .PHONY: all edit run test kill caddy make usage
 
+PORT=8090
+URL=http://localhost:$(PORT)
+
 all: usage
 
 edit e:
@@ -10,17 +13,33 @@ run r:
 	tail -f log/access.log
 
 test t:
-	caddy -conf="Caddyfile" &
-	curl -v http://localhost:8090
+	@echo ""
+	@echo "make [t1|t2|t3]"
+	@echo "  - t1, t2 : using curl"
+	@echo "  - t3     : using h2spec"
+	@echo ""
+
+t1:
+	curl -v $(URL)
 
 t2:
-	curl http://localhost:8090 --http2
+	curl -v -XPOST $(URL) --http2
+
+t3:
+	h2spec -p $(PORT)
+
+t4:
+	http2check $(URL)
 
 bench b:
-	wrk -c 10 -t 5 http://localhost:8090
+	wrk -c 10 -t 5 $(URL)
 
 view v:
-	xdg-open http://localhost:8090/blog
+	xdg-open $(URL)/blog
+
+
+search s:
+	hub-search --lang=go http/2
 
 kill k:
 	killall caddy
