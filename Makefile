@@ -41,6 +41,10 @@ view v:
 search s:
 	hub-search --lang=go http/2
 
+docker d:
+	docker run --rm -it -p 2015:2015 darron/caddy
+	#docker run --rm -it -p 2015:2015 darron/caddy caddy
+
 kill k:
 	killall caddy
 

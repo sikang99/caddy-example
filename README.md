@@ -30,7 +30,6 @@ to test http/2 it requires more newer version of curl
 - [cURL](http://curl.haxx.se/) - HTTP testing tool, [github](https://github.com/bagder/curl)
 - [wrk](https://github.com/wg/wrk) - HTTP benchmarking tool
 
-- [Caddy](https://caddyserver.com/) - The HTTP/2 Web Server, written in Go, released at 2015
-	[github]()
+- [Caddy](https://caddyserver.com/) - The HTTP/2 Web Server, written in Go, released at 2015, [github](https://github.com/mholt/caddy)
 
 
