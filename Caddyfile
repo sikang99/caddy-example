@@ -1,11 +1,13 @@
 localhost:8090
 log log/access.log
 
+tls sec/cert.pem sec/key.pem
+
 browse /blog
 markdown /blog {
 	ext md txt
-	css /resources/css/blog.css
-	js  /resources/js/blog.js
+	css /resource/css/blog.css
+	js  /resource/js/blog.js
 }
 
 websocket /echo cat
