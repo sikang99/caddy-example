@@ -13,11 +13,11 @@
 - 2012 Thrift vs Protocol Buffers vs Avro - Biased Comparison
 - 2012 Schema evolution in Avro, Protocol Buffers and Thrift
 - 2012 [번역] 에이브로(Avro), 프로토콜 버퍼(Protocol Buffers) 그리고 스리프트(Thrift)의 스키마 변경(evolution)
-- 2013 Binary serialization formats
+- 2013 [Binary serialization formats](http://leopard.in.ua/2013/10/13/binary-serialization-formats/)
 
 ### 2014
 
-- 2014 Nine Things to Expect from HTTP/2
+- 2014 [Nine Things to Expect from HTTP/2](https://www.mnot.net/blog/2014/01/30/http2_expectations)
 	- Same HTTP APIs
 	- Cheaper Requests
 	- Network- and Server-Friendliness
@@ -182,4 +182,48 @@ flexibility regarding transports (such as sockets, pipes, etc) and protocols (bi
 - [gobson](https://labix.org/gobson) - BSON serialization for Go
 - [gson-rmi](https://code.google.com/p/gson-rmi/) - A Java JSON-RPC implementation w/ transport framework
  
+
+## Glossary
+
+### Format
+
+- representational state transfer (REST)
+- TLV - IPv6
+- ASN.1
+- RFC822
+- ABNF
+- HTML
+- CSV
+- XML
+- JSON
+- RDF
+- Apache Avro - Hadoop, Binary/JSON as RPC IDL, SASL profile
+- Apache Thrift - 0.9.1(Ubuntu), 0.9.2, Facebook, Evernote, go support
+- Protobuf - Google 2008, ActiveMQ, netty-protobuf-rpc
+- protostuff
+- smile
+- Simple Binary Encoding (SBE)
+- Cap’n Proto
+- FlatBuffers - Google
+- MessagePack - Java serialization library, @Message annotation, 17 langs support
+- Rugs On
+- BERT
+- IDL (Schema Definition)
+
+### RPC
+
+- DCE-RPC
+- NFS/RPC (RFC 1094/1057)
+- RMI - Java
+- XStream - XML Java library, JSON(24%)/XML
+- Kyro - Java
+- SOAP - ad-hoc RPC over HTTP
+- CORBA 
+- JSON-RPC
+- Cap’n Proto RPC
+- gRPC - google
+- net/rpc - golang
+- CRIU RPC 
+- BERT-RPC
+- zerorpc
 
