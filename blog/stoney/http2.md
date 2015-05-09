@@ -18,6 +18,7 @@
 
 ### Golang
 * [bradfitz/http2](https://github.com/bradfitz/http2) - HTTP/2 support for Go
+	- h2i - an interactive HTTP/2 ("h2") console debugger
 * [Jxck/http2](https://github.com/Jxck/http2) - http2 implementation in Go
 * [grpc/grpc-go](https://github.com/grpc/grpc-go) - The Go language implementation of gRPC. HTTP/2 based RPC
 * [xyproto/algernon](https://github.com/xyproto/algernon) - HTTP/2 web server that can serve Markdown and dynamic Lua scripts
