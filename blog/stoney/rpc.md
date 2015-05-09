@@ -165,20 +165,20 @@ flexibility regarding transports (such as sockets, pipes, etc) and protocols (bi
 
 - [sikang99/grpc-example](https://github.com/sikang99/grpc-example) - grpc service example
 - [grpc/grpc](https://github.com/grpc/grpc) - The C based gRPC (C++, Node.js, Python, Ruby, Objective-C, PHP, C#) 
-- [eishay/jvm-serializers] - java serialization benchmarking
-- [alecthomas/go_serialization_benchmarks] - Benchmarks of Go serialization methods
-- [pquerna/ffjson] - faster JSON serialization for Go
-- [DeDiS/protobuf] - Reflection-based Protocol Buffers
-- [gogo/protobuf] - Protocol Buffers for Go with Gadgets, http://gogo.github.io
-- [glycerine/go-capnproto] - Cap'n Proto library and parser for go
-- [square/wire] - Clean, lightweight protocol buffers for Android and Java. Wire Mobile Protocol Buffers
-- [google/flatbuffers] - Memory Efficient Serialization Library, http://google.github.io/flatbuffers/
-- [jsonfx/jsonfx] - JsonFx v2.0 - JSON serialization framework for .NET, http://jsonfx.net/license
-- [scala/pickling] - Fast, customizable, boilerplate-free pickling support for Scala, http://lampwww.epfl.ch/~hmiller/pickling
-- [laruence/yar] - Light, concurrent RPC framework for PHP & C (java, python etc will be supported soon)
-- [kentaro/grpc-gdbm] - A network interface to gdbm using grpc-go.
-- [GeertJohan/go.httpjsonrpc] - HTTP JSON-RPC
-- [dullgiulio/pingo]  - Plugins for Go
+- [eishay/jvm-serializers](https://github.com/eishay/jvm-serializers) - java serialization benchmarking
+- [alecthomas/go_serialization_benchmarks](https://github.com/alecthomas/go_serialization_benchmarks) - Benchmarks of Go serialization methods
+- [pquerna/ffjson](https://github.com/pquerna/ffjson) - faster JSON serialization for Go
+- [DeDiS/protobuf](https://github.com/DeDiS/protobuf) - Reflection-based Protocol Buffers
+- [gogo/protobuf](https://github.com/gogo/protobuf) - Protocol Buffers for Go with Gadgets, http://gogo.github.io
+- [glycerine/go-capnproto](https://github.com/glycerine/go-capnproto) - Cap'n Proto library and parser for go
+- [square/wire](https://github.com/square/wire) - Clean, lightweight protocol buffers for Android and Java. Wire Mobile Protocol Buffers
+- [google/flatbuffers](https://github.com/google/flatbuffers) - Memory Efficient Serialization Library, http://google.github.io/flatbuffers/
+- [jsonfx/jsonfx](https://github.com/jsonfx/jsonfx) - JsonFx v2.0 - JSON serialization framework for .NET, http://jsonfx.net/license
+- [scala/pickling](https://github.com/scala/pickling) - Fast, customizable, boilerplate-free pickling support for Scala, http://lampwww.epfl.ch/~hmiller/pickling
+- [laruence/yar](https://github.com/laruence/yar) - Light, concurrent RPC framework for PHP & C (java, python etc will be supported soon)
+- [kentaro/grpc-gdbm](https://github.com/kentaro/grpc-gdbm) - A network interface to gdbm using grpc-go.
+- [GeertJohan/go.httpjsonrpc](https://github.com/GeertJohan/go.httpjsonrpc) - HTTP JSON-RPC
+- [dullgiulio/pingo](https://github.com/dullgiulio/pingo)  - Plugins for Go
 - [gobson](https://labix.org/gobson) - BSON serialization for Go
 - [gson-rmi](https://code.google.com/p/gson-rmi/) - A Java JSON-RPC implementation w/ transport framework
  
