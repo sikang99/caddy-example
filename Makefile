@@ -81,7 +81,7 @@ git-init gi:
 git-push gp:
 	git init
 	git add README.md Caddyfile Makefile index.html image/ blog/
-	git commit -m "add data files"
+	git commit -m "add blog data files"
 	git push -u https://sikang99@github.com/sikang99/$(REPO) master
 
 gencert:

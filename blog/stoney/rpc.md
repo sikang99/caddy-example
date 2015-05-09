@@ -22,7 +22,7 @@
 	- Cheaper Requests
 	- Network- and Server-Friendliness
 	- Cache Pushing : server push
-	- Being Able to Change Your Mind : RST_STREAM frame
+	- Being Able to Change Your Mind : `RST_STREAM` frame
 	- More Encryption
 	- No More Text
 	- It’ll Take Some Time to Get it Right
@@ -73,12 +73,12 @@
 - 2015 Introducing gRPC, a new open source HTTP/2 RPC Framework
 - 2015 Microservices based webapplication in golang using grpc.
 - 2015 gRPC-JSON proxy
-	- gRPC(HTTP/2)와 REST(HTTP/1.1)의 적절히 결합하여 운영하는 것에 대해
+	- gRPC(HTTP/2)와 REST(HTTP/1.1)의 적절히 결합하여 운영하는 것에 대한 것 
 	- gengo/grpc-gateway - gRPC to JSON proxy generator
 - 2015 Weekly API.Report For March 2nd, 2015
 	- gRPC, HTTP/2, IoT Small Things, Microservice, SPA, PDK(WordPress)
 - 2015 Difference between Microsoft's Bond and Google's Protocol Buffers [closed]
-- 2015 Microsoft Open Sources Cross-platform Serialization Library – Bond
+- 2015 [Microsoft Open Sources Cross-platform Serialization Library – Bond](http://www.infoq.com/news/2015/02/MicrosoftBond)
 
 
 
@@ -127,11 +127,12 @@ flexibility regarding transports (such as sockets, pipes, etc) and protocols (bi
 	- Bond doesn't support union types (oneof in Protocol Buffers)
 	- Bond doesn't have Java implementation (yet)
 - Why Bond
-- takemyoxygen/bond-performance-tests : 비슷한 데이터 크기로 40% 정도 더 빠르다.
+- takemyoxygen/bond-performance-tests : 비슷한 데이터 크기로 protobuf 보다 40% 정도 더 빠르다.
 
 
 ## GitHub Repos
 
+- [sikang99/grpc-example]((https://github.com/sikang99/grpc-example) - grpc service example
 - [grpc/grpc](https://github.com/grpc/grpc) - The C based gRPC (C++, Node.js, Python, Ruby, Objective-C, PHP, C#) 
 - [eishay/jvm-serializers] - java serialization benchmarking
 - [alecthomas/go_serialization_benchmarks] - Benchmarks of Go serialization methods
@@ -147,7 +148,7 @@ flexibility regarding transports (such as sockets, pipes, etc) and protocols (bi
 - [kentaro/grpc-gdbm] - A network interface to gdbm using grpc-go.
 - [GeertJohan/go.httpjsonrpc] - HTTP JSON-RPC
 - [dullgiulio/pingo]  - Plugins for Go
-- [gobson] - BSON serialization for Go
-- [gson-rmi] - A Java JSON-RPC implementation w/ transport framework
+- [gobson](https://labix.org/gobson) - BSON serialization for Go
+- [gson-rmi](https://code.google.com/p/gson-rmi/) - A Java JSON-RPC implementation w/ transport framework
  
 
