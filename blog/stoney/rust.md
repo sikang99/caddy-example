@@ -1,12 +1,5 @@
-+++
-Categories = ["Development", "Rust"]
-Description = "rust"
-Tags = ["Development", "golang"]
-date = "2015-03-04T18:40:31+09:00"
-menu = "main"
-title = "Rust"
+# Rust Language
 
-+++
 [Rust]:http://www.rust-lang.org/
 Rust 언어를 배우고자 정보를 관리한다.
 

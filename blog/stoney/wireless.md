@@ -1,17 +1,9 @@
-+++
-Categories = ["Development", "GoLang"]
-Description = ""
-Tags = ["Development", "golang"]
-date = "2015-03-04T09:13:36+09:00"
-menu = "main"
-title = "Wireless communication"
+# Wireless communication
 
-+++
 ![WarkaTree](/WarkaTree.jpg)
 IoT에 관련된 무선통신 기술을 집중적으로 파악한다.
 
 ### General
-
 
 
 

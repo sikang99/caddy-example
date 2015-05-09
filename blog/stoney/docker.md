@@ -1,12 +1,5 @@
-+++
-Categories = ["Development", "GoLang"]
-Description = "docker"
-Tags = ["Development", "golang"]
-date = "2015-04-09T19:48:09+09:00"
-menu = "main"
-title = "Docker"
+# Container Technology
 
-+++
 ![Docker](/docker.png)
 요즘 유행하고 있는 대표적인 컨테이너 기술인 도커관련 생태계를 알아본다.
 

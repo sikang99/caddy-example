@@ -1,12 +1,5 @@
-+++
-Categories = ["Development", "GoLang"]
-Description = "safe vs unsafe performance"
-Tags = ["Development", "golang"]
-date = "2015-02-26T18:02:42+09:00"
-menu = "main"
-title = "Unsafe string conversion"
+#  Unsafe string conversion
 
-+++
 Safe vs Unsafe string conversion
 -
 https://github.com/bep/gosandbox/tree/master/unsafestrings

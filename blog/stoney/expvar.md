@@ -1,12 +1,5 @@
-+++
-Categories = ["Development", "GoLang"]
-Description = "expvar"
-Tags = ["Development", "golang"]
-date = "2015-02-27T23:43:16+09:00"
-menu = "main"
-title = "expvar package"
+# expvar package
 
-+++
 expvar
 -
 [expvar](http://golang.org/pkg/expvar/) 패키지는 http로 서버의 상태를 알수 있도록 

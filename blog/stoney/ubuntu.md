@@ -1,12 +1,4 @@
-+++
-Categories = ["Development", "GoLang"]
-Description = "ubuntu"
-Tags = ["Development", "golang"]
-date = "2015-02-28T18:21:02+09:00"
-menu = "main"
-title = "Ubuntu utilities"
-
-+++
+# Ubuntu
 
 * [리눅스 커널 개발을 위한 Vim + ctags + cscope + taglist 설정](https://ysoh.wordpress.com/2012/04/09/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%BB%A4%EB%84%90-%EA%B0%9C%EB%B0%9C%EC%9D%84-%EC%9C%84%ED%95%9C-vim-%EC%84%A4%EC%A0%95-vimrc/)
 

@@ -1,12 +1,4 @@
-+++
-Categories = ["Development", "Xlang"]
-Description = ""
-Tags = ["Development", "xlang"]
-date = "2015-03-22T16:41:36+09:00"
-menu = "main"
-title = "New Languages"
-
-+++
+# New Languages
 
 ## General
 * [What is the best programming language to learn first?](http://www.slant.co/topics/25/~what-is-the-best-programming-language-to-learn-first)

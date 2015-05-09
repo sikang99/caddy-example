@@ -1,12 +1,5 @@
-+++
-Categories = ["Development", "GoLang"]
-Description = "RTSP"
-Tags = ["Development", "golang"]
-date = "2015-02-28T00:05:59+09:00"
-menu = "main"
-title = "RTSP packages"
+# RTSP
 
-+++
 ## Reference
 관계된 사이트들은 다음과 같다.
 

@@ -1,15 +1,4 @@
-+++
-Categories = ["Development", "Linux"]
-Description = ""
-Tags = ["Development", "linux"]
-date = "2015-03-11T11:47:22+09:00"
-menu = "main"
-title = "Linux/Unix"
-
-+++
-
-
-
+# Linux/Unix
 
 
 

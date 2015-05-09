@@ -1,12 +1,5 @@
-+++
-Categories = ["Development", "Erlang"]
-Description = "erlang lang"
-Tags = ["Development", "elixir"]
-date = "2015-02-28T19:00:56+09:00"
-menu = "main"
-title = "Erlang, Elixir"
+# Elixir Language
 
-+++
 Elixir는 Erlang의 개선된 버젼의 언어라고 한다.
 
 ## Erlang

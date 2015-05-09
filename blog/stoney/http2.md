@@ -1,12 +1,5 @@
-+++
-Categories = ["Development", "GoLang"]
-Description = "http2 and golang"
-Tags = ["Development", "golang"]
-date = "2015-04-14T19:36:05+09:00"
-menu = "main"
-title = "HTTP/2 Ecosystem"
+# HTTP/2
 
-+++
 이제 표준화가 완료된 http/2를 기본적으로 이해하고 잘 다루어야 한다.
 
 ### HTTP/2

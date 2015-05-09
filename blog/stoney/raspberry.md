@@ -1,13 +1,7 @@
-+++
-Categories = ["Development", "GoLang"]
-Description = "raspberry pi"
-Tags = ["Development", "golang"]
-date = "2015-03-01T17:54:51+09:00"
-menu = "main"
-title = "Raspberry Pi"
+# Raspberry Pi
 
-+++
 (2015/03/25) 카메라 모듈(개발키트에 붙이면서 불량이 난 듯)이 불량인 경우가 있다.
+
 ```
 $ raspistill -o test.jpg
 mmal: Received unexpected camera control callback event, 0x4f525245

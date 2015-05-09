@@ -1,8 +1,6 @@
-+++
-date = "2015-02-26T14:14:58+09:00"
-title = "Welcome to Hugo"
+# Static Site
 
-+++
+
 Hugo is a Fast and Flexible Static Site Generator(SSG)
 built with love by spf13 and friends in Go.
 

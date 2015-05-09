@@ -1,13 +1,4 @@
-+++
-Categories = ["Development", "GoLang"]
-Description = "MQTT protocol"
-Tags = ["Development", "golang"]
-date = "2015-03-16T16:12:13+09:00"
-menu = "main"
-title = "MQTT"
-
-+++
-
+# Messaging
 
 
 ## General

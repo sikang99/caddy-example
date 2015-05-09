@@ -1,12 +1,4 @@
-+++
-Categories = ["Development", "JavaScript"]
-Description = ""
-Tags = ["Development", "javascript"]
-date = "2015-03-06T12:10:43+09:00"
-menu = "main"
-title = "JavaScript"
-
-+++
+# JavaScript Ecosystem
 
 ## General
 * JavaScript

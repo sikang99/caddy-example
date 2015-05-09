@@ -1,12 +1,6 @@
-+++
-Categories = ["Development", "OS"]
-Description = "firefox os and browser"
-Tags = ["Development", "golang"]
-date = "2015-03-01T00:43:33+09:00"
-menu = "main"
-title = "Firefox"
+# Firefox
 
-+++
+
 [Firefox]:https://www.mozilla.org/ko/firefox/
 [Firefox OS]:http://www.firefoxos.com
 
