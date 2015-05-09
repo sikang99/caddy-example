@@ -81,6 +81,19 @@
 - 2015 [Microsoft Open Sources Cross-platform Serialization Library – Bond](http://www.infoq.com/news/2015/02/MicrosoftBond)
 
 
+## Some Notes
+
+- Quantitive Comparisons of serialization
+	- Whether schema definition is required or nor?
+	- Whether schema compiler is required or not?
+	- Whether serialization is based on binary or ascii?
+	- Which programming languages are supported?
+
+- The major differences between gRPC and Thrift are pretty simple:
+	- This solves things with protobufs, Google's serialization library. protobufs has implementations in many more languages, its implementation is older, and it's a bit more compact than the default Thrift serialization format. It's also less expressive (e.g., protobufs can't distinguish between an empty collection and null, whereas Thrift can).
+	- Thrift has a custom RPC format; gRPC just uses HTTP/2 with some slightly formalized REST generation from a given RPC interface. You honestly could accidentally be gRPC-compliant right now with a vanilla protobufs-over-HTTP/2 implementation.
+
+
 
 
 ## Major Techs
