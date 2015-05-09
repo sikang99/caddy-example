@@ -85,25 +85,29 @@
 
 ## Major Techs
 
-### Google Protocol Buffers 
+### Google [Protocol Buffers](http://code.google.com/p/protobuf)
+
 - Developers Guide
 - Language Guide (proto3)
 - Third-Party Add-ons for Protocol Buffers
 
-### Google gRPC: [twitter]
+### Google [gRPC](http://www.grpc.io/): [twitter](https://twitter.com/grpcio)
+
 - A high performance, open source, general RPC framework that puts mobile and HTTP/2 first
 - Powerful IDL : message, service
 - Libraries in ten languages : C, C++, Java, Go, Node.js, Python, Ruby,Objective-C, PHP and C#
 - HTTP/2
 
-### Apache Thrift, [apache/thrift]
+### Apache [Thrift](https://thrift.apache.org/), [apache/thrift](https://github.com/apache/thrift)
+
 - a RPC framework designed to be efficient, and available across both OS platforms and programming languages
 flexibility regarding transports (such as sockets, pipes, etc) and protocols (binary, JSON, even compressed), plus some more options like SSL or SASL support
 - Actionscript 3.0, C++, CSharp, D, Delphi, Go, Graphviz, Haxe Framework, Haskell, Java, Javascript, Node.js, OCaml, Perl, PHP, Python, Ruby
 - What is RPC framework and Apache Thrift?
 - Thrift: The Missing Guide
 
-### Apache Avro
+### Apache [Avro](http://avro.apache.org/)
+
 - Rich data structures.
 - A compact, fast, binary data format.
 - A container file, to store persistent data.
@@ -112,6 +116,7 @@ flexibility regarding transports (such as sockets, pipes, etc) and protocols (bi
 - schemas are defined with JSON
 
 ### MS [Bond](https://github.com/Microsoft/bond/)
+
 - Pros :
 	- Bond supports generics
 	- Bond has different types to represent collections: vector<T>, map<T>, list<T>
@@ -126,6 +131,7 @@ flexibility regarding transports (such as sockets, pipes, etc) and protocols (bi
 
 
 ## GitHub Repos
+
 - [grpc/grpc](https://github.com/grpc/grpc) - The C based gRPC (C++, Node.js, Python, Ruby, Objective-C, PHP, C#) 
 - [eishay/jvm-serializers] - java serialization benchmarking
 - [alecthomas/go_serialization_benchmarks] - Benchmarks of Go serialization methods
