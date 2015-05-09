@@ -107,10 +107,10 @@
 - 2015 [HTTP/2 Introduction](http://www.slideshare.net/walterliu7/http2-introduction)
 
 
-### Note
+### Base Info
 
-Comparison of data serialization formats
-Hessian (Web service protocol)
+- [Comparison of data serialization formats](http://en.wikipedia.org/wiki/Comparison_of_data_serialization_formats)
+- [Hessian (Web service protocol](http://en.wikipedia.org/wiki/Hessian_%28Web_service_protocol%29)
 
 
 
