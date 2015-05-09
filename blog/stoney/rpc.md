@@ -64,7 +64,6 @@
 - 2015 #gRPC: HTTP/2 — Proto 3— Micro Services tag team
 	- IDL over Proto3 (binary standard) over HTTP/2(optional)
 	- Microservice architecture patterns and best practices
-
 - 2015 gRPC (video)
 	- Google Data : based on Atom Publishing Protocol [RFC 5023]
 	- XML over HTTP protocol
@@ -112,7 +111,7 @@ flexibility regarding transports (such as sockets, pipes, etc) and protocols (bi
 - Simple integration with dynamic languages. Code generation is not required to read or write data files nor to use or implement RPC protocols. Code generation as an optional optimization, only worth implementing for statically typed languages.
 - schemas are defined with JSON
 
-### MS Bond
+### MS [Bond](https://github.com/Microsoft/bond/)
 - Pros :
 	- Bond supports generics
 	- Bond has different types to represent collections: vector<T>, map<T>, list<T>
@@ -127,7 +126,7 @@ flexibility regarding transports (such as sockets, pipes, etc) and protocols (bi
 
 
 ## GitHub Repos
-- [grpc/grpc] - The C based gRPC (C++, Node.js, Python, Ruby, Objective-C, PHP, C#) 
+- [grpc/grpc](https://github.com/grpc/grpc) - The C based gRPC (C++, Node.js, Python, Ruby, Objective-C, PHP, C#) 
 - [eishay/jvm-serializers] - java serialization benchmarking
 - [alecthomas/go_serialization_benchmarks] - Benchmarks of Go serialization methods
 - [pquerna/ffjson] - faster JSON serialization for Go
