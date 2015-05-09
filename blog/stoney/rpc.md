@@ -127,12 +127,12 @@ flexibility regarding transports (such as sockets, pipes, etc) and protocols (bi
 	- Bond doesn't support union types (oneof in Protocol Buffers)
 	- Bond doesn't have Java implementation (yet)
 - Why Bond
-- takemyoxygen/bond-performance-tests : 비슷한 데이터 크기로 protobuf 보다 40% 정도 더 빠르다.
+- [takemyoxygen/bond-performance-tests](https://github.com/takemyoxygen/bond-performance-tests) : 비슷한 데이터 크기로 protobuf 보다 40% 정도 더 빠르다.
 
 
 ## GitHub Repos
 
-- [sikang99/grpc-example]((https://github.com/sikang99/grpc-example) - grpc service example
+- [sikang99/grpc-example](https://github.com/sikang99/grpc-example) - grpc service example
 - [grpc/grpc](https://github.com/grpc/grpc) - The C based gRPC (C++, Node.js, Python, Ruby, Objective-C, PHP, C#) 
 - [eishay/jvm-serializers] - java serialization benchmarking
 - [alecthomas/go_serialization_benchmarks] - Benchmarks of Go serialization methods
