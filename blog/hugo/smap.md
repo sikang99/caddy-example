@@ -1,11 +1,5 @@
-+++
-Categories = ["Development", "GoLang"]
-Description = "Shared map for concurrent access"
-Tags = ["Development", "golang"]
-date = "2015-02-26T16:23:29+09:00"
-menu = "main"
-title = "Shared Map"
-+++
+# Shared Map
+
 (정재휴)
 작업을 하다가 여러 고루틴에서 map을 공유해야 할 상황이 생겨, concurrent한 map을 만들어보았습니다.
 mutex를 사용하지 않고 channel만을 사용하여, lock 없이 동작하도록 했습니다.

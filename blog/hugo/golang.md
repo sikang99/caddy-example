@@ -1,11 +1,5 @@
-+++
-Categories = ["Development", "GoLang"]
-Description = ""
-Tags = ["Development", "golang"]
-date = "2015-04-10T15:57:48+09:00"
-menu = "main"
-title = "Golang"
-+++
+# Go Programming Language
+
 ![Gopher](/gopher.png)
 
 구글에서 개발한 새로운 언어인 Go를 배운다. 제대로 활용할 수 있을때까지 익혀라.

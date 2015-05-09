@@ -1,12 +1,5 @@
-+++
-Categories = ["Development", "WebRTC"]
-Description = ""
-Tags = ["Development", "webrtc"]
-date = "2015-03-06T19:55:51+09:00"
-menu = "main"
-title = "WebRTC"
+# Web Technology
 
-+++
 [WebRTC]:http://www.webrtc.org
 [RTCWeb]:http://ietf.org
 
