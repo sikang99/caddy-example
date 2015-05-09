@@ -78,6 +78,7 @@
 * [Squid HTTP/2.0](http://wiki.squid-cache.org/Features/HTTP2)
 
 ### Servers
+* [Caddy](https://caddyserver.com/) - HTTP/2 web server made for Human, written in golang
 * [Trusted](http://trusterd.org/) - HTTP/2 Web Server scripting with mruby using nghttp2 and mruby-http2
 * [Algernon](http://algernon.roboticoverlords.org/) - HTTP/2 web server with built-in support for Lua, Markdown, GCSS and Amber
 	- [https://github.com/xyproto/algernon](https://github.com/xyproto/algernon)
