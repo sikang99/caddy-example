@@ -42,6 +42,7 @@
 - 2014 Netty 4-based RPC System Development
 - 2014 Announcing release of Microsoft Avro Library
 - 2014 Google Protocol Buffers Libraries for C
+- 2014 [Serialization In Go](http://www.ugorji.net/blog/serialization-in-go)
 
 ### 2015
 
@@ -64,7 +65,7 @@
 - 2015 #gRPC: HTTP/2 — Proto 3— Micro Services tag team
 	- IDL over Proto3 (binary standard) over HTTP/2(optional)
 	- Microservice architecture patterns and best practices
-- 2015 gRPC (video)
+- 2015 [gRPC](http://bitworking.org/news/2015/02/grpc) (video)
 	- Google Data : based on Atom Publishing Protocol [RFC 5023]
 	- XML over HTTP protocol
 	- gRPC : 3rd Gen API system w/ protobuf and HTTP/2
@@ -72,9 +73,9 @@
 - 2015 The Java gRPC implementation - HTTP/2 based RPC
 - 2015 Introducing gRPC, a new open source HTTP/2 RPC Framework
 - 2015 Microservices based webapplication in golang using grpc.
-- 2015 gRPC-JSON proxy
+- 2015 [gRPC-JSON proxy](http://yugui.jp/articles/889)
 	- gRPC(HTTP/2)와 REST(HTTP/1.1)의 적절히 결합하여 운영하는 것에 대한 것 
-	- gengo/grpc-gateway - gRPC to JSON proxy generator
+	- [gengo/grpc-gateway](https://github.com/gengo/grpc-gateway) - gRPC to JSON proxy generator
 - 2015 [Weekly API.Report For March 2nd, 2015](http://apievangelist.com/2015/03/02/weekly-apireport-for-march-2nd-2015/)
 	- gRPC, HTTP/2, IoT Small Things, Microservice, SPA, PDK(WordPress)
 - 2015 [Difference between Microsoft's Bond and Google's Protocol Buffers](http://stackoverflow.com/questions/27879239/difference-between-microsofts-bond-and-googles-protocol-buffers)
@@ -182,6 +183,7 @@ flexibility regarding transports (such as sockets, pipes, etc) and protocols (bi
 - [dullgiulio/pingo](https://github.com/dullgiulio/pingo)  - Plugins for Go
 - [gobson](https://labix.org/gobson) - BSON serialization for Go
 - [gson-rmi](https://code.google.com/p/gson-rmi/) - A Java JSON-RPC implementation w/ transport framework
+- [ugorji/go](https://github.com/ugorji/go) - idiomatic codec and rpc lib for msgpack, cbor, json, etc. msgpack.org[Go]
  
 
 ## Glossary
