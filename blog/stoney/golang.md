@@ -327,6 +327,7 @@ https://developers.google.com/protocol-buffers/
 
 ### Multimedia
 
+* [jfbus/mp4](https://github.com/jfbus/mp4) - A MP4 encoder/decoder class
 * [srinathh/goanigiffy](https://github.com/srinathh/goanigiffy) - Utility to create an animated gif from frames extracted from a video (or any other sorted image set) with cropping, scaling, rotation & flip operations
 * [gophergala/videq](https://github.com/gophergala/videq) - High quality video encoding for modern web in golang
 * [ziutek/dvb](https://github.com/ziutek/dvb) - DVB/MPEG-TS library (pure Go)

@@ -184,6 +184,7 @@ flexibility regarding transports (such as sockets, pipes, etc) and protocols (bi
 - [gobson](https://labix.org/gobson) - BSON serialization for Go
 - [gson-rmi](https://code.google.com/p/gson-rmi/) - A Java JSON-RPC implementation w/ transport framework
 - [ugorji/go](https://github.com/ugorji/go) - idiomatic codec and rpc lib for msgpack, cbor, json, etc. msgpack.org[Go]
+- [2tvenom/cbor](https://github.com/2tvenom/cbor) - Golang library for working with cbor binary format
  
 
 ## Glossary
@@ -211,6 +212,8 @@ flexibility regarding transports (such as sockets, pipes, etc) and protocols (bi
 - Rugs On
 - BERT - Binary ERlang Term, Erlang's binary serialization format
 - [Cap’n Proto](https://capnproto.org/) - binary serialization
+- [CBOR](http://cbor.io/) - RFC-7049, Concise Binary Object Representation
+	- JSON, No schema
 
 ### RPC
 
