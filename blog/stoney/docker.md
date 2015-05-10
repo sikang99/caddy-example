@@ -1,9 +1,9 @@
 # Container Technology
 
-![Docker](/docker.png)
 요즘 유행하고 있는 대표적인 컨테이너 기술인 도커관련 생태계를 알아본다.
 
 ## Diary
+
 - 2015/04/02 : 도커로 컴파일하고 도커로 배포하는 방법을 익히다.
 - 2015/03/09 : 서비스를 자동으로 동작시키는 형태로 도커를 운영할 수 있어야 하는데 그러기 위해선, systemd가 필요하다.
 - 2015/03/04 : 도커의 사용법이 익숙해지고 있다. 도커와 마이크로서비스와 밀접한 관계가 있는 것 같다.
@@ -11,6 +11,7 @@
 Machine, Swarm, Compose라는 3가지 오케스트레이션 도구들이 새로이 발표 지원되고 있다.
 
 ## General
+
 * [Docker] - Linux container engine,
 		[github](https://github.com/docker/docker),
 		[wikipedia](http://en.wikipedia.org/wiki/Docker_\(software\))
@@ -61,6 +62,7 @@ Machine, Swarm, Compose라는 3가지 오케스트레이션 도구들이 새로�
 
 
 ### Information for Docker
+
 * [Data Center Operating System](http://datacenteroperatingsystem.io/)
 * [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker)
 * [Sandboxing proprietary applications with Docker](http://www.jann.cc/2014/09/06/sandboxing_proprietary_applications_with_docker.html)
@@ -106,20 +108,24 @@ Machine, Swarm, Compose라는 3가지 오케스트레이션 도구들이 새로�
 
 
 ### Information for CoreOS
+
 * [Experimenting with CoreOS, confd, etcd, fleet, and CloudFormation](http://marceldegraaf.net/2014/04/24/experimenting-with-coreos-confd-etcd-fleet-and-cloudformation.html)
 
 
 ### Information for Drawbridge
+
 * MS [Drawbridge](http://research.microsoft.com/en-us/projects/drawbridge/)
 * [The Docker Virtual Machine Extension for Linux on Azure](http://azure.microsoft.com/en-us/documentation/articles/virtual-machines-docker-vm-extension/)
 
 
 ### Information for SDN
+
 * [Docker offers big opportunity for software-defined networking](http://thoughtsoncloud.com/2014/12/can-enterprise-portable-network-docker-opportunity-sdn/)
 * [Docker performance monitoring](http://blog.sflow.com/2014/06/docker-performance-monitoring.html) - sflow
 
 
 ### Docker for ARM Devices
+
 * [Docker Pirates ARMed with explosive stuff](http://blog.hypriot.com/) - HypriotOS
 * (video) [Docker Kitematic controls Raspberry Pi 2 running Docker 1.5.0](https://www.youtube.com/watch?v=yHytb1k3TfM)
 * [Connecting Kitematic to an external Docker Engine running on a Raspberry Pi](http://blog.kitematic.com/post/114866595734/connecting-kitematic-to-an-external-docker-engine)
@@ -128,6 +134,7 @@ Machine, Swarm, Compose라는 3가지 오케스트레이션 도구들이 새로�
 
 
 ## Handling
+
 * [Yongbok Blog](http://www.yongbok.net/blog/) - Docker expert, OS
 	- [ruo91/docker-building-your-own-bridge.sh](https://gist.github.com/ruo91/3180814477e4e785877a) -
 Shell script for building your own bridge in docker
@@ -135,6 +142,7 @@ Shell script for building your own bridge in docker
 
 
 ##  Slides
+
 * 황상철, [DevOps with Docker](http://www.slideshare.net/k16wire/devops-with-docker-45512521) - 간결한 설명
 * Jeremy Brown, [Docker and DevOps - Why it matters](http://www.slideshare.net/tenfourty/2015-02-06-sabeo-techxperts-docker-and-devops-why-it-matters)
 	- Waterfall, Agile, Lean, Continuous Integration, Delivery, Deployment, Operation
@@ -153,6 +161,7 @@ Shell script for building your own bridge in docker
 	- [github](https://github.com/docker-in-practice)
 
 ### Tests
+
 * [NATS](http://nats.io/) - is an open-source, high-performance, lightweight cloud messaging system
 ```
 $ docker run --name my_gnatsd -d apcera/gnatsd
@@ -320,11 +329,13 @@ usage:
 
 
 ### Tools
+
 * [netvarun/docket](https://github.com/netvarun/docket) - Docket - Custom docker registry that allows for lightning fast deploys through bittorrent
 * [spotify/docker-gc](https://github.com/spotify/docker-gc) - Docker garbage collection of containers and images
 * [socketplane/docker-ovs](https://github.com/socketplane/docker-ovs) - Open vSwitch for Docker
 
 ## Search
+
 * GitHub [Trending repositories for golang](https://github.com/trending?l=go)
 * StackOverflow [Docker Help](http://stackoverflow.com/search?q=docker)
 
@@ -340,3 +351,4 @@ usage:
 [Packer]:http://www.packer.io/
 [Boot2Docker]:http://boot2docker.io/
 [OpenShift]:http://www.openshift.org/
+

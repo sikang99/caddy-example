@@ -1,6 +1,6 @@
 # RTSP
 
-Real-Time Streaming Protocol - usually used in CCTV
+RTSP : Real-Time Streaming Protocol - usually used in CCTV
 
 ## Reference
 
