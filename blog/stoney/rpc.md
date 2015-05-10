@@ -109,6 +109,7 @@
 
 ### Base Info
 
+- [Remote procedure call](http://en.wikipedia.org/wiki/Remote_procedure_call)
 - [Comparison of data serialization formats](http://en.wikipedia.org/wiki/Comparison_of_data_serialization_formats)
 - [Hessian (Web service protocol](http://en.wikipedia.org/wiki/Hessian_%28Web_service_protocol%29)
 
@@ -224,6 +225,6 @@ flexibility regarding transports (such as sockets, pipes, etc) and protocols (bi
 - gRPC - google
 - net/rpc - golang
 - CRIU RPC 
-- BERT-RPC
+- [BERT-RPC](http://bert-rpc.org/) - BERT-RPC 1.0 Specification
 - zerorpc
 
