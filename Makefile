@@ -19,6 +19,7 @@ test t:
 	@echo "  - t1, t2 : using curl"
 	@echo "  - t3     : using h2spec"
 	@echo "  - t4     : using http2check"
+	@echo "  - t5     : using h2i from bradfitz/http2/h2i" 
 	@echo ""
 
 t1:
@@ -34,6 +35,9 @@ t3:
 
 t4:
 	http2check $(URL)/README.md
+
+t5:
+	h2i -insecure=true localhost:$(PORT)
 
 bench b:
 	wrk -c 10 -t 5 $(URL)
