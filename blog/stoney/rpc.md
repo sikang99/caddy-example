@@ -208,7 +208,7 @@ flexibility regarding transports (such as sockets, pipes, etc) and protocols (bi
 - FlatBuffers - Google
 - MessagePack - Java serialization library, @Message annotation, 17 langs support
 - Rugs On
-- BERT
+- BERT - Binary ERlang Term, Erlang's binary serialization format
 - IDL (Schema Definition)
 
 ### RPC
@@ -222,7 +222,7 @@ flexibility regarding transports (such as sockets, pipes, etc) and protocols (bi
 - CORBA 
 - JSON-RPC
 - Cap’n Proto RPC
-- gRPC - google
+- [gRPC](http://www.grpc.io/) - google RPC based on HTTP/2
 - net/rpc - golang
 - CRIU RPC 
 - [BERT-RPC](http://bert-rpc.org/) - BERT-RPC 1.0 Specification
