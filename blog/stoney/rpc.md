@@ -75,9 +75,9 @@
 - 2015 gRPC-JSON proxy
 	- gRPC(HTTP/2)와 REST(HTTP/1.1)의 적절히 결합하여 운영하는 것에 대한 것 
 	- gengo/grpc-gateway - gRPC to JSON proxy generator
-- 2015 Weekly API.Report For March 2nd, 2015
+- 2015 [Weekly API.Report For March 2nd, 2015](http://apievangelist.com/2015/03/02/weekly-apireport-for-march-2nd-2015/)
 	- gRPC, HTTP/2, IoT Small Things, Microservice, SPA, PDK(WordPress)
-- 2015 Difference between Microsoft's Bond and Google's Protocol Buffers [closed]
+- 2015 [Difference between Microsoft's Bond and Google's Protocol Buffers](http://stackoverflow.com/questions/27879239/difference-between-microsofts-bond-and-googles-protocol-buffers)
 - 2015 [Microsoft Open Sources Cross-platform Serialization Library – Bond](http://www.infoq.com/news/2015/02/MicrosoftBond)
 
 
