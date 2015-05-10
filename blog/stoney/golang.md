@@ -12,15 +12,15 @@
 
 다음은 GOPATH에 설치되어 있는 패키지를 자동으로 모두 `...` 다시 설치하는 방법이다.
 ```
-$ go get [pkg] ...
+	$ go get [pkg] ...
 ```
 관련된 패키지를 모두 받을때는 끝에 `...`을 붙인다.
 ```
-$ go get github.com/google...
+	$ go get github.com/google...
 ```
 현재 패키지가 종속된 모든 관련 패키지를 설치한다.
 ```
-$ go get ./...
+	$ go get ./...
 ```
 
 
@@ -220,12 +220,14 @@ $ go build -ldflags "-s" prog.go
 
 ------------
 ### Open Source
+
 * [peterbourgon/gokit](https://github.com/peterbourgon/gokit) - A toolkit for Go in service-oriented architectures.  [gokit](http://gokit.io)
 * [libgit2/git2go](https://github.com/libgit2/git2go) - Git to Go. Like McDonald's but tastier.
 * [go-lang-plugin-org/go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) - Google Go language IDE built using the Intellij Platform
 
 ### System
 #### Base
+
 * [edsrzf/mmap-go](https://github.com/edsrzf/mmap-go) - A portable mmap package for Go
 * [labix/gommap](http://labix.org/gommap)
 * [jpillora/backoff](https://github.com/jpillora/backoff) - Simple backoff algorithm in Go (Golang)
@@ -233,6 +235,7 @@ $ go build -ldflags "-s" prog.go
 * [djherbis/buffer](https://github.com/djherbis/buffer) - Composable Buffers for Go
 
 #### Pooling
+
 * [Jeffail/tunny](https://github.com/Jeffail/tunny) - A goroutine pool for golang
 * [polaris1119/bitmap](Bitmap Data Structure In Golang) - Bitmap Data Structure In Golang
 * [go-goast/goast](https://github.com/go-goast/goast) - goast is a Go AST utility with the aim of providing idiomatic meta-programming facilities for Go
@@ -240,21 +243,26 @@ $ go build -ldflags "-s" prog.go
 * [djherbis/pool](https://github.com/djherbis/pool) - #golang net.Conn pool
 
 #### Device
+
 * [https://github.com/hanwen/usb](https://github.com/hanwen/usb) - CGO bindings for libusb.
 
 #### Logging
+
 * [firstrow/logvoyage](https://github.com/firstrow/logvoyage) - logging SaaS written in GoLang
 
 #### File System
+
 * [https://github.com/bazil/fuse](https://github.com/bazil/fuse) - FUSE library for Go. http://bazil.org/fuse
 
 #### Embedded
+
 * [traetox/kegarator](https://github.com/traetox/kegarator) - A smart kegarator that tracks temperature and controls the compressor with a web interface and stats
 * [traetox/goGPIO](https://github.com/traetox/goGPIO) - golang control over GPIO pins. Works great on raspberrypi and beaglebones
 
 
 ### Networking
 #### Base
+
 * [Configurable zero downtime daemon(TCP/HTTP/FCGI) framework write in golang](https://bitbucket.org/PinIdea/zero-downtime-daemon/) - for Gateway, Load Balancer, Stateless Service
 * [gocircuit](http://www.gocircuit.org) -
 * [firstrow/tcp_server](https://github.com/firstrow/tcp_server) - GoLang simple TCP server
@@ -270,6 +278,7 @@ $ go build -ldflags "-s" prog.go
 
 
 #### Cache, Proxy
+
 * [elazarl/goproxy](https://github.com/elazarl/goproxy) - An HTTP proxy library for Go
   - [Introducing GoProxy – a light, customizable HTTP Proxy written in Go](http://ripper234.com/p/introducing-goproxy-light-http-proxy/)
 * [golang/groupcache](https://github.com/golang/groupcache) - a caching and cache-filling library, intended as a replacement for memcached in many cases
@@ -278,6 +287,7 @@ $ go build -ldflags "-s" prog.go
 * [astaxie/bat](https://github.com/astaxie/bat) - Go implement CLI, cURL-like tool for humans
 
 #### Communication
+
 * [djherbis/socket](https://github.com/djherbis/socket) - Simple Socket.io alternative with #golang server
 * [googollee/go-socket.io](https://github.com/googollee/go-socket.io) - socket.io library for golang, a realtime application framework
 * [googollee/go-engine.io](https://github.com/googollee/go-engine.io) - engine.io for golang, a transport-based cross-browser/cross-device bi-directional communication layer
@@ -291,7 +301,8 @@ https://developers.google.com/protocol-buffers/
 * [marconi/phonebook](https://github.com/marconi/phonebook) - A RPC server and client using Thrift in Golang
 
 
-### Graphics, GUI <img src="/go-opengl.png" height="50" >
+### Graphics, GUI
+
 * [OpenGL with Golang](https://github.com/go-gl)
   - 내 우분투 PC에서 OpenGL 2.1 example은 동작한다. 4.1은 안된다.
 * [google/gxui](https://github.com/google/gxui) - An experimental Go cross platform UI library.
@@ -309,11 +320,13 @@ https://developers.google.com/protocol-buffers/
 * [veandco/go-sdl2](https://github.com/veandco/go-sdl2) - SDL2 binding for Go
 
 ### Game
+
 * [Shoen/phaser_multiplayer_demo](https://github.com/Shoen/phaser_multiplayer_demo) - HTML5 Multiplayer with Phaser and Go
 * [Azul3D](https://github.com/azul3d) - A 3D game engine written in Go!, http://azul3d.org
 
 
 ### Multimedia
+
 * [srinathh/goanigiffy](https://github.com/srinathh/goanigiffy) - Utility to create an animated gif from frames extracted from a video (or any other sorted image set) with cropping, scaling, rotation & flip operations
 * [gophergala/videq](https://github.com/gophergala/videq) - High quality video encoding for modern web in golang
 * [ziutek/dvb](https://github.com/ziutek/dvb) - DVB/MPEG-TS library (pure Go)
@@ -349,8 +362,8 @@ https://developers.google.com/protocol-buffers/
 * [mjibson/mog](https://github.com/mjibson/mog) - An audio player written in Go
 
 
-
 ### Language
+
 * [GoErlang](https://github.com/goerlang) - Go, Erlang Go!
 * [GopherJS](https://github.com/gopherjs) - Go to JavaScript
 * [zxh0/jvm.go](https://github.com/zxh0/jvm.go) - A JVM written in GO...
@@ -360,6 +373,7 @@ https://developers.google.com/protocol-buffers/
 
 
 ### Security
+
 * [nareix/tls-example](https://github.com/nareix/tls-example) - Golang crypto/tls example. x509 certificate create and sign
 * [go-authboss/authboss](https://github.com/go-authboss/authboss) - The boss of http auth.
 * [captncraig/ssgo](https://github.com/captncraig/ssgo) - Utilities for easy single sign on with external services
@@ -368,9 +382,11 @@ https://developers.google.com/protocol-buffers/
 * [jpillora/go-and-ssh](https://github.com/jpillora/go-and-ssh) - Go and the Secure Shell protocol
 
 ### Document
+
 - [VonC/asciidocgo](https://github.com/VonC/asciidocgo) - Like asciidoctor, but in Go
 
 ### Database
+
 * [ha/doozerd](https://github.com/ha/doozerd) - A consistent distributed data store.
 * [google/cayley](https://github.com/google/cayley) - An open-source graph database
 * [deiwin/imstor](github.com/deiwin/imstor) - A Golang image storage engine
@@ -378,9 +394,11 @@ https://developers.google.com/protocol-buffers/
 * [mozilla-services/heka](https://github.com/mozilla-services/heka/) - Data collectionPlugin 'vim-jp/vim-go-extra' and processing made easy
 
 ### Biology
+
 * [biogo/biogo](https://github.com/biogo/biogo) - biogo is a bioinformatics library for Go
 
 ### Development
+
 * [speedata/gogit](https://github.com/speedata/gogit) - Pure Go rsudo chmod a+x /usr/local/bin/weaveead access of a Git repository
 * [speedata/decorate](github.com/speedata/decorate) - Go syntax highlighting framework
 * [speedata/gohigh](github.com/speedata/gohigh) - Syntax highlighter written in GoSrc
@@ -393,15 +411,18 @@ https://developers.google.com/protocol-buffers/
 
 
 ### Service
+
 * [deiwin/luncher-api](https://github.com/deiwin/luncher-api) - An API for Luncher
 
 
 ### International
+
 * [robpike/hira](github.com/robpike/hira) - Hira is a command to transliterate ASCII to Hiragana.
 * [robpike/kana](https://github.com/robpike/kana) - Kana is a command to transliterate hiragana and katakana to ASCII.
 
 
 ### Information
+
 * [Github Star Ranking](http://38elements.github.io/) - C, Go, Swift, Python, ...
   - [Go Github Star Ranking at 2015/03/17](http://38elements.github.io/2015/03/17/go-repository-github-star-ranking.html)
 * [Awesome Go](http://getawesomeness.com/get/go) - [github](https://github.com/avelino/awesome-go)
@@ -421,11 +442,13 @@ https://developers.google.com/protocol-buffers/
 * [Prismatic golang](http://getprismatic.com/raw/golang)
 
 ### Awesome
+
 * [fleveque/awesome-awesomes](https://github.com/fleveque/awesome-awesomes) - Awesome collection of awesome lists of libraries, tools, frameworks and software for any programming language :D
 * [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - A curated list of awesome lists
 
 
 ### Blogs
+
 * [Vluxe](http://vluxe.io/) - A collection of interesting computer science and programming topics. Updated weekly.
 * [sdubs.org](http://sdubs.org/) - Blogging all the bytes!, Junos
 * [GoLang Basic](http://golang-basic.blogspot.kr/)
@@ -444,6 +467,7 @@ https://developers.google.com/protocol-buffers/
 * [Richard Crowley](http://rcrowley.org/) - go talks
 
 ### Slides
+
 * (slide) [RESTful Web Applications with Google Go](http://www.slideshare.net/TheMue/res-tful-web-applications-with-google-go)
 * (slide) [Let's Go (golang)](http://www.slideshare.net/songaal/lets-go-45867246) - 나름 자세히 차근히 설명하고 있다.
 * (presto) [Realtime and Go](http://goonaboat.com/#/)
@@ -459,6 +483,7 @@ https://developers.google.com/protocol-buffers/
 Plugin 'vim-jp/vim-go-extra'
 
 ### Books
+
 * 2012, "[An Introduction to Programming in Go](http://www.golang-book.com/)", [한글판](http://codingnuri.com/golang-book/), [github](https://github.com/thbar/golang-playground)
 * 2012, "The Programming Language Go",
 * 2012, *"Go Programming Language Phrasebook"*,
@@ -477,6 +502,7 @@ Plugin 'vim-jp/vim-go-extra'
 
 
 ### Search
+
 * [GitHub](https://github.com/)
   - [Trending repositories for Go](https://github.com/trending?l=go)
   - [Trending developers for Go](https://github.com/trending/developers?l=go)
@@ -490,6 +516,7 @@ Plugin 'vim-jp/vim-go-extra'
 
 ### DevEnv
 #### Editors
+
 * [IDEs and Plugins for Go](https://github.com/golang/go/wiki/IDEsAndTextEditorPlugins)
 * [IDEs and Plugins for Go](https://code.google.com/p/go-wiki/source/browse/IDEsAndTextEditorPlugins.wiki?repo=wiki)
 * [Cloud9](https://c9.io/) - Your development environment, in the cloud
@@ -501,24 +528,25 @@ Plugin 'vim-jp/vim-go-extra'
   - [Atom Editor or Sublime Text](http://www.atomtips.com/atom-editor-vs-sublime-text/)
   - Go (golang) autocomplete https:// atom.io/packages/go-plus
 ```
-go get -u -v github.com/nsf/gocode
-go get -u -v github.com/golang/lint/golint
-go get golang.org/x/tools/cmd/goimports
-apm install go-plus
-go get -u -v code.google.com/p/rog-go/exp/cmd/godef
-apm install godef
-go get code.google.com/p/go.tools/cmd/oracle
-apm install go-oracle
+	go get -u -v github.com/nsf/gocode
+	go get -u -v github.com/golang/lint/golint
+	go get golang.org/x/tools/cmd/goimports
+	apm install go-plus
+	go get -u -v code.google.com/p/rog-go/exp/cmd/godef
+	apm install godef
+	go get code.google.com/p/go.tools/cmd/oracle
+	apm install go-oracle
 ```
   - base dev packages
 ```
-apm install project-manager
-apm install autocomplete-plus
-apm install git-control
-apm install go-to-line
+	apm install project-manager
+	apm install autocomplete-plus
+	apm install git-control
+	apm install go-to-line
 ```
 
 #### Vim
+
 * [Ubuntu powerline : shell, vim 등의 statusline 을 예쁘게...](http://humb1ec0ding.github.io/2013/11/26/ubuntu-powerline-beautify-the-stateline.html)
 * [快適にGoを書くための設定たち - 2015 Spring](http://qiita.com/izumin5210/items/1f3c312edd7f0075b09c)
   - [vim-jp/vim-go-extra](https://github.com/vim-jp/vim-go-extra) - Extra Vim plugins for Go
@@ -528,11 +556,13 @@ apm install go-to-line
 * [Generally, how do I “go to definition” in VIM? Then how do I with golang?](http://stackoverflow.com/questions/21125602/generally-how-do-i-go-to-definition-in-vim-then-how-do-i-with-golang)
 - [ctag database for golang](http://stackoverflow.com/questions/8204367/ctag-database-for-golang)
 * [Programming with Go in Vim](http://blog.myitcv.org.uk/2014/03/03/programming-with-go-in-vim.html)
+
 ```
-$ go get -u github.com/nsf/gocode
-$ go get -u code.google.com/p/rog-go/exp/cmd/godef
-$ go get -u github.com/jstemmer/gotags
+	$ go get -u github.com/nsf/gocode
+	$ go get -u code.google.com/p/rog-go/exp/cmd/godef
+	$ go get -u github.com/jstemmer/gotags
 ```
+
 * [The Ultimate Vim Distribution](http://vim.spf13.com/)
 * [An incomplete list of Go tools](http://dominik.honnef.co/posts/2014/12/an_incomplete_list_of_go_tools/)
 * [fatih/vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim, v1.0.3
@@ -556,6 +586,7 @@ $ go get -u github.com/jstemmer/gotags
 
 
 ### Learning
+
 수행함수의 파일명과 줄, 그리고 함수명 찍기
 
 ```
@@ -586,6 +617,7 @@ func Debug(format string, a ...interface{}) {
 
 ### Personal
 #### Vim을 위한 플러그인 설치
+
 기본 플러그인을 설치한다.
 ```
 $ mkdir -p ~/.vim/autoload ~/.vim/bundle
@@ -605,6 +637,7 @@ $ git clone https://github.com/dgryski/vim-godef ~/.vim/bundle/vim-godef
 ```
 
 #### Atom을 위한 플러그인 설치
+
 ```
 $ apm install autocomplete-plus go-plus
 ```
