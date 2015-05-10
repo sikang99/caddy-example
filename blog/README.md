@@ -1,14 +1,11 @@
 
+# My Interests
+
+## [github](./github)
+
+Here are github repos tested by me.
 
 
+## [blog](./stoney)
 
-
-
-## github
-
-
-- [caddy](./github/caddy.md)
-- [grpc-example](./github/grpc-example.md)
-
-
-## blog
+My personal info data for study and blogging
