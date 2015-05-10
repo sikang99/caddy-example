@@ -498,7 +498,7 @@ Plugin 'vim-jp/vim-go-extra'
 * 2015, "Go: Up and Running", O'Reilly
 * 2015, "[The Go Programming Language](http://www.gopl.io/)", Addison-Wesley
 * 2015, "Go Web Programming",
-* 2015, "Go Programming by Example" [Go by Example](https://gobyexample.com/)
+* 2015, "[Go Programming by Example](https://gobyexample.com/)"
 
 
 ### Search
@@ -620,20 +620,20 @@ func Debug(format string, a ...interface{}) {
 
 기본 플러그인을 설치한다.
 ```
-$ mkdir -p ~/.vim/autoload ~/.vim/bundle
-$ cd ~/.vim/autoload
-$ git clone https://github.com/tpope/vim-pathogen.git
-$ cd ~/.vimrc/bundle
-$ git clone https://github.com/gmarik/Vundle.vim.git
+	$ mkdir -p ~/.vim/autoload ~/.vim/bundle
+	$ cd ~/.vim/autoload
+	$ git clone https://github.com/tpope/vim-pathogen.git
+	$ cd ~/.vimrc/bundle
+	$ git clone https://github.com/gmarik/Vundle.vim.git
 ```
 Go 편집을 위한 부가 플러그인을 설치한다.
 ```
-$ cd ~/.vim/bundle
-$ git clone https://github.com/fatih/vim-go.git
-$ git clone https://github.com/Valloric/YouCompleteMe.git
-$ git clone https://github.com/majutsushi/tagbar.git
-$ git clone https://github.com/scrooloose/nerdtree.git
-$ git clone https://github.com/dgryski/vim-godef ~/.vim/bundle/vim-godef
+	$ cd ~/.vim/bundle
+	$ git clone https://github.com/fatih/vim-go.git
+	$ git clone https://github.com/Valloric/YouCompleteMe.git
+	$ git clone https://github.com/majutsushi/tagbar.git
+	$ git clone https://github.com/scrooloose/nerdtree.git
+	$ git clone https://github.com/dgryski/vim-godef ~/.vim/bundle/vim-godef
 ```
 
 #### Atom을 위한 플러그인 설치
