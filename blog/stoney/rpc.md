@@ -188,18 +188,17 @@ flexibility regarding transports (such as sockets, pipes, etc) and protocols (bi
 
 ### Format
 
+- IDL (Schema Definition)
 - representational state transfer (REST)
 - TLV - IPv6
 - ASN.1
-- RFC822
+- RFC-822
 - ABNF
 - HTML
 - CSV
 - XML
 - JSON
 - RDF
-- Apache Avro - Hadoop, Binary/JSON as RPC IDL, SASL profile
-- Apache Thrift - 0.9.1(Ubuntu), 0.9.2, Facebook, Evernote, go support
 - Protobuf - Google 2008, ActiveMQ, netty-protobuf-rpc
 - protostuff
 - smile
@@ -209,22 +208,25 @@ flexibility regarding transports (such as sockets, pipes, etc) and protocols (bi
 - MessagePack - Java serialization library, @Message annotation, 17 langs support
 - Rugs On
 - BERT - Binary ERlang Term, Erlang's binary serialization format
-- IDL (Schema Definition)
+- [Cap’n Proto](https://capnproto.org/) - binary serialization
 
 ### RPC
 
 - DCE-RPC
+- ONC-RPC
 - NFS/RPC (RFC 1094/1057)
 - RMI - Java
-- XStream - XML Java library, JSON(24%)/XML
+- XStream - XML Java library, JSON/XML
 - Kyro - Java
 - SOAP - ad-hoc RPC over HTTP
 - CORBA 
 - JSON-RPC
-- Cap’n Proto RPC
-- [gRPC](http://www.grpc.io/) - google RPC based on HTTP/2
-- net/rpc - golang
-- CRIU RPC 
-- [BERT-RPC](http://bert-rpc.org/) - BERT-RPC 1.0 Specification
 - zerorpc
+- net/rpc - golang
+- [CRIU RPC](http://criu.org)
+- [Cap’n Proto RPC](https://capnproto.org/rpc.html)
+- [gRPC](http://www.grpc.io/) - google RPC based on HTTP/2
+- [BERT-RPC](http://bert-rpc.org/) - BERT-RPC 1.0 Specification
+- Apache Avro - Hadoop, Binary/JSON as RPC IDL, SASL profile
+- Apache Thrift - 0.9.1(Ubuntu), 0.9.2, Facebook, Evernote, go support
 
