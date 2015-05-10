@@ -1,6 +1,7 @@
 # JavaScript Ecosystem
 
 ## General
+
 * JavaScript
 * ECMAScript
 * [Dart](http://www.dartlang.org)
@@ -16,14 +17,17 @@
 * AppleScript
 
 ### Frameworks
+
 * [AngularJS](https://angularjs.org/)
 
 
 ### Information
+
 * [Parallel.js](http://adambom.github.io/parallel.js/)
 * [d3js](http://d3js.org) - Data-Driven Documents, A JavaScript visualization library for HTML and SVG.
 
 ### Multimedia
+
 * W3C [Media Capture and Streams](http://www.w3.org/TR/mediacapture-streams/)
 * [From microphone to .WAV with: getUserMedia and Web Audio](http://www.bytearray.org/?p=5598)
 * [Record and Export Audio, Video files in browser using Web Audio API with Recorder.js](http://truongtx.me/2014/08/09/record-and-export-audio-video-files-in-browser-using-web-audio-api/)
@@ -32,6 +36,7 @@
 * [Recording audio in browser](http://obem.be/2015/03/23/experiments-recording-audio-in-browser.html)
 
 ### Open Source
+
 * [google/shaka-player](https://github.com/google/shaka-player) - JavaScript player library / DASH client / MSE-EME player
 * [mgechev/jscapture](https://github.com/mgechev/jscapture) - Screen recording and capturing with pure client-side JavaScript.
 https://mgechev.github.io/jscapture/
@@ -42,5 +47,7 @@ https://mgechev-webrtc.herokuapp.com/
 
 
 ## Books
-* 2012, Programming in CoffeeScript, Adison-Wesley
-*
+
+- 2012, Programming in CoffeeScript, Addison-Wesley
+-
+
