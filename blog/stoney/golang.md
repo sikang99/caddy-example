@@ -1,10 +1,9 @@
 # Go Programming Language
 
-![Gopher](/gopher.png)
-
 구글에서 개발한 새로운 언어인 Go를 배운다. 제대로 활용할 수 있을 때까지 익혀라.
 
 ### Diary
+
 - 2015/04/10 : vim 설정에 많은 시간을 보내다. MSA에 대한 필요성이 증가하면서 Go를 주목받고 있다.
 - 2015/03/09 : gomedia 패키지의 코딩을 시작하다.
 - 2015/03/18 : 동적 패키지 로딩에 대해서 생각해보다. 고의 정적 컴파일 때문에 방법은 별도 수행을 시킨다.
@@ -26,6 +25,7 @@ $ go get ./...
 
 
 ### News
+
 * [Active Open Source Go Projects](http://pansop.com/1008/)
 * [Building a Go Project](http://docs.travis-ci.com/user/languages/go/)
 * [Graceful server restart with Go](http://blog.scalingo.com/post/105609534953/graceful-server-restart-with-go) : 이해필요
@@ -36,6 +36,7 @@ $ go get ./...
 
 
 ### General
+
 * [Golang] [wikipedia](http://en.wikipedia.org/wiki/Go_%28programming_language%29)
   - [Package](http://golang.org/pkg/)
   - [Playground](http://play.golang.org/)
@@ -76,12 +77,14 @@ $ go get ./...
   - [Quiita Golang](http://qiita.com/tags/golang)
 
 ### Features
+
 * [Why does Go compile so quickly?](http://stackoverflow.com/questions/297663github.com/Scalingo/go-graceful-restart-example0/why-does-go-compile-so-quickly)
 * [Five things that make Go fast](http://dave.cheney.net/2014/06/07/five-things-that-make-go-fast)
 * [A few notes on choosing between Go and D for a quick project](http://forum.dlang.org/thread/mdtago$em9$1@digitalmars.com)
 
 
 ### Service
+
 * [gocover.io](http://gocover.io) - Code coverage for golang packages
 * [gopm.io](http://gopm.io/) - Gopm Resitry
 * [emdbd.kidman.io](http://embd.kidoman.io/) - Golang Embedded Programming Framework
@@ -136,6 +139,7 @@ $ go get ./...
 
 
 ### Study
+
 * [How to reduce compiled file size?](http://stackoverflow.com/questions/3861634/how-to-reduce-compiled-file-size)
   - `sudo apt-get install upx-ucl`
   - [pwaller/goupx](https://github.com/pwaller/goupx) - Fix golang ELF executables to work with upx
@@ -186,6 +190,7 @@ $ go build -ldflags "-s" prog.go
 
 -----------
 ### Vendors
+
 * [Koding, Inc.](https://github.com/koding?page=2) - kite, cache, file, rabbitapi, rabbitmq, pubnub
   - [koding.com/](http://blog.koding.com/)
 * [Google Samples](https://github.com/googlesamples) - cloud-polymer-go, identity-toolkit-go
@@ -195,6 +200,7 @@ $ go build -ldflags "-s" prog.go
 
 
 ### Gophers
+
 * [Rob Pike,robpike](https://github.com/robpike?tab=repositories) - ivy, unicode
 * [Jaime Pillora,jpillora](https://github.com/jpillora?tab=repositories) - chisel, cloud-gox, spy go-ogle-analytics
 * [Rafal Jeczalik,rjeczalik](https://github.com/rjeczalik?tab=repositories) - notify, gh, fs(gotree), which(gowhich,gofile,gobin), fakerpc
