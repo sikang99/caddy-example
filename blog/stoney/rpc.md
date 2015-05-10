@@ -101,7 +101,7 @@
 - 2010 [Protocol buffers](http://www.slideshare.net/fabricioepa/protocol-buffers-44187777)
 - 2011 [Introduction to Thrift](http://www.slideshare.net/dvirsky/introduction-to-thrift)
 - 2012 [Apache thrift-RPC service cross languages](http://www.slideshare.net/jimmy_lai/apache-thriftrpc-service-cross-languages)
-- 2014 [Serialization in Go] [pdf]
+- 2014 [Serialization in Go](./slide/2014-Serialization-in-Go.pdf) [pdf]
 - 2014 [JSON on Mobile: is there an Efficient Parser?](http://drops.dagstuhl.de/opus/volltexte/2014/4562/pdf/10.pdf) (paper)
 	- 전체적으로 RPC와 Serialization에 대해 잘 설명하고 있다.
 - 2015 [HTTP/2 Introduction](http://www.slideshare.net/walterliu7/http2-introduction)
