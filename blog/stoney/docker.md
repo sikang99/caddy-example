@@ -59,10 +59,13 @@ Machine, Swarm, Compose라는 3가지 오케스트레이션 도구들이 새로�
 	[github](https://github.com/rackspace/gophercloud) - The Go SDK for Openstack
 * [tsuru](https://tsuru.io) - Open source Platform as a Service (PaaS),
 	[github](https://github.com/tsuru/tsuru)
+* [tray.io](https://tray.io/) - an orchestration backend, is only available as Docker containers
+
 
 
 ### Information for Docker
 
+* [Goodbye, SaaS — hello, Containers-as-a-Service](http://venturebeat.com/2015/05/09/goodbye-saas-hello-containers-as-a-service/) - CaaS/i, Containers-as-a-Service
 * [Data Center Operating System](http://datacenteroperatingsystem.io/)
 * [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker)
 * [Sandboxing proprietary applications with Docker](http://www.jann.cc/2014/09/06/sandboxing_proprietary_applications_with_docker.html)
