@@ -2,7 +2,7 @@
 
 - [RPC and Serialization](./rpc.md)
 - [HTTP/2](./http2.md)
-- [RTSP,RTMP](./rtsp.md)
+- [Streaming Protocol](./rtsp.md)
 - [JavaScript](./js.md)
 - [Web Technology](./webrtc.md)
 - [New Languages](./xlang.md)

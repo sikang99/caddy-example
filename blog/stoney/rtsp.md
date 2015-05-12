@@ -1,11 +1,15 @@
 # Streaming Protocols
 
+HTTP/(TCP) > RTMP/(TCP) > RTSP/(UDP,TCP,HTTP)
 
 ## HTTP
 
+HyperText Transport Protocol
 
 ### Reference
 
+- [zoggdotorg/river](https://github.com/zoggdotorg/river) - Webcam server
+ 
 
 ## RTSP
 
