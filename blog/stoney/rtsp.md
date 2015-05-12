@@ -2,15 +2,21 @@
 
 HTTP/(TCP) > RTMP/(TCP) > RTSP/(UDP,TCP,HTTP)
 
+-------
 ## HTTP
 
 HyperText Transport Protocol
 
 ### Reference
 
-- [zoggdotorg/river](https://github.com/zoggdotorg/river) - Webcam server
- 
+- [Golang Multipart File Upload Example](http://matt.aimonetti.net/posts/2013/07/01/golang-multipart-file-upload-example/)
 
+### GitHub
+ 
+- [zoggdotorg/river](https://github.com/zoggdotorg/river) - A simple webcam server for a raspberry pi and a USB webcam.
+
+
+-------
 ## RTSP
 
 Real-Time Streaming Protocol - usually used in CCTV
@@ -18,6 +24,8 @@ Real-Time Streaming Protocol - usually used in CCTV
 ### Reference
 
 관계된 사이트들은 다음과 같다.
+
+### GitHub
 
 - [beatgammit/rtsp](https://github.com/beatgammit/rtsp) - rtsp implementation in Go
 - [lbl52001/gortsp](https://github.com/lbl52001/gortsp) - RTSP server framework which migrate from net/http package
@@ -40,6 +48,7 @@ $ CC=clang go run serv.go
 - Go Search : http://go-search.org/search?q=rtsp
 
 
+-------
 ## RTMP
 
 Real-Time Message Protocol by Adobe
@@ -47,4 +56,21 @@ Real-Time Message Protocol by Adobe
 ### Reference
 
 - [zhangpeihao/gortmp](https://github.com/zhangpeihao/gortmp) - Implement RTMP protocol by golang
+
+
+-------
+## DAAP
+
+[Digital Audio Access Protocol](http://en.wikipedia.org/wiki/Digital_Audio_Access_Protocol)
+
+### Reference
+
+
+
+### GitHub
+
+- [nickbp/adaapd-golang-old](https://github.com/nickbp/adaapd-golang-old) - Abandoned golang version of a DAAP media server.
+- [grantmd/go-airplay](https://github.com/grantmd/go-airplay) - An Apple Airplay client in Go (golang)
+- [lsowen/mdns](https://github.com/lsowen/mdns) - Simple mDNS client/server library in Golang
+
 
