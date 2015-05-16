@@ -1,6 +1,8 @@
 # Container Technology
 
 요즘 유행하고 있는 대표적인 컨테이너 기술인 도커관련 생태계를 알아본다.
+Container-as-a-Service (CaaS) 라는 단어를 사용하고 있다. 
+어쩌면 종속성이 없는 IaaS의 장점과 서비스적인 특성의 PaaS의 장점을 다 취하는 형태가 될지 모른다.
 
 ## Diary
 

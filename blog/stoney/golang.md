@@ -315,8 +315,10 @@ https://developers.google.com/protocol-buffers/
 * [miketheprogrammer/go-thrust](https://github.com/miketheprogrammer/go-thrust) - Cross Platform UI Kit powered by Blink/V8/Chromium Content Lib
 * [mattn/go-gtk](https://github.com/mattn/go-gtk/) - Go binding for GTK
 * [Codenator81/go-sdl2-intro](https://github.com/Codenator81/go-sdl2-intro) - Just play with sdl2 on Golang
-  - `$ sudo apt-get install libsdl2-dev libsdl2-image-dev`
-  - `$ go get github.com/veandco/go-sdl2, go-sdl2/sdl, go-sdl2/sdl_image`
+```
+	$ sudo apt-get install libsdl2-dev libsdl2-image-dev
+ 	$ go get github.com/veandco/go-sdl2, go-sdl2/sdl, go-sdl2/sdl_image
+```
 * [veandco/go-sdl2](https://github.com/veandco/go-sdl2) - SDL2 binding for Go
 
 ### Game
@@ -327,6 +329,7 @@ https://developers.google.com/protocol-buffers/
 
 ### Multimedia
 
+* [youpy/go-wav](https://github.com/youpy/go-wav) - A Go library to read/write WAVE(RIFF waveform Audio) Format
 * [jfbus/mp4](https://github.com/jfbus/mp4) - A MP4 encoder/decoder class
 * [srinathh/goanigiffy](https://github.com/srinathh/goanigiffy) - Utility to create an animated gif from frames extracted from a video (or any other sorted image set) with cropping, scaling, rotation & flip operations
 * [gophergala/videq](https://github.com/gophergala/videq) - High quality video encoding for modern web in golang
@@ -348,7 +351,9 @@ https://developers.google.com/protocol-buffers/
 * [metachord/flv.go](github.com/metachord/flv.go) - FLV library for Go
 * [metachord/flvsak](https://github.com/metachord/flvsak) - Tool for tagging FLV files
 * [jteeuwen/go-vlc](https://github.com/jteeuwen/go-vlc) - Go bindings for libVLC
-  - `$ sudo apt-get install libvlc-dev`
+```
+	$ sudo apt-get install libvlc-dev
+```
 * [3d0c/gmf](https://github.com/3d0c/gmf) - Go Media Framework (old)
 ```
   $ git clone https://github.com/FFmpeg/FFmpeg ffmpeg
@@ -514,6 +519,7 @@ Plugin 'vim-jp/vim-go-extra'
 * [text.io for golang](http://www.texture.io/alphabetum?q=%23golang)
 * [Go Index](https://godoc.org/-/index) - a list of 'go get'able packages on godoc.org
 * [CoolGithubProjects](https://www.coolgithubprojects.com/) - [72h trending](https://www.coolgithubprojects.com/72top.php)
+* [Awesome-go.com](http://awesome-go.com/)
 
 ### DevEnv
 #### Editors
@@ -545,6 +551,7 @@ Plugin 'vim-jp/vim-go-extra'
 	apm install git-control
 	apm install go-to-line
 ```
+* [AtomでのGo言語開発環境セットアップ](http://qiita.com/MakoTano/items/3d807a96c3933ac8aa13) - go-plus 설정이 자세히
 
 #### Vim
 
@@ -583,8 +590,9 @@ Plugin 'vim-jp/vim-go-extra'
 * [Golang + vim dev setup in Docker](https://medium.com/@manishrjain/golang-vim-dev-setup-in-docker-5de7302684dc)
   - [Dev setup for golang with vim + plugins](https://bitbucket.org/manishrjain/godev)
   - docker : [mrjn/godev](https://registry.hub.docker.com/u/mrjn/godev/)
-  - `$ docker run --rm -it rrjn/godev /bin/bash`
-
+```
+	$ docker run --rm -it rrjn/godev /bin/bash
+```
 
 ### Learning
 
