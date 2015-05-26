@@ -62,7 +62,7 @@ Machine, Swarm, Compose라는 3가지 오케스트레이션 도구들이 새로�
 * [tsuru](https://tsuru.io) - Open source Platform as a Service (PaaS),
 	[github](https://github.com/tsuru/tsuru)
 * [tray.io](https://tray.io/) - an orchestration backend, is only available as Docker containers
-
+* [Helios](https://github.com/spotify/helios) - Docker container orchestration platform
 
 
 ### Information for Docker
